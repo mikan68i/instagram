@@ -8,6 +8,8 @@
 
 import UIKit
 import ESTabBarController
+import Firebase
+import FirebaseAuth
 
 class ViewController: UIViewController {
 
@@ -59,6 +61,16 @@ class ViewController: UIViewController {
         }, at: 1)
         
     }
-
+    
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        
+        // currentUserがnilならログインしていない
+        if Auth.auth().currentUser == nil {
+            // ログインしていないときの処理
+            let loginViewController = self.storyboard?.instantiateViewController(withIdentifier: "Login")
+            self.present(loginViewController!, animated: true, completion: nil)
+        }
+    }
 }
 

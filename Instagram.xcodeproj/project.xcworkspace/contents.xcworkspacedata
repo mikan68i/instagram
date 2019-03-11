@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:Instagram.xcodeproj">
+      location = "group:/Users/takahashihikari/Documents/&#x30d5;&#x309a;&#x30ed;&#x30af;&#x3099;&#x30e9;&#x30df;&#x30f3;&#x30af;&#x3099;&#x6f14;&#x7fd2;/Instagram/Instagram/comment.png">
+   </FileRef>
+   <FileRef
+      location = "self:">
    </FileRef>
 </Workspace>
