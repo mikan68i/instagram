@@ -21,7 +21,8 @@
 		1A9FF160222940FC00689393 /* ImageSelectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A9FF15F222940FC00689393 /* ImageSelectViewController.swift */; };
 		1A9FF1632229411C00689393 /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A9FF1622229411C00689393 /* PostViewController.swift */; };
 		1A9FF1652229412F00689393 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A9FF1642229412F00689393 /* SettingViewController.swift */; };
-		1AF0FEA522301F27003578E9 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1AF0FEA422301F27003578E9 /* GoogleService-Info.plist */; };
+		1ADFBD4D2236880800729E75 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1AF0FEA422301F27003578E9 /* GoogleService-Info.plist */; };
+		1ADFBD4E2236888400729E75 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1A9FF15522293FBD00689393 /* Info.plist */; };
 		29D9FB14F678E51E08B16307 /* Pods_Instagram.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5740B560875F2CFF67735706 /* Pods_Instagram.framework */; };
 /* End PBXBuildFile section */
 
@@ -180,7 +181,8 @@
 			files = (
 				1A9FF15422293FBD00689393 /* LaunchScreen.storyboard in Resources */,
 				1A6C4BCD2230C25A00D25ACD /* PostTableViewCell.xib in Resources */,
-				1AF0FEA522301F27003578E9 /* GoogleService-Info.plist in Resources */,
+				1ADFBD4E2236888400729E75 /* Info.plist in Resources */,
+				1ADFBD4D2236880800729E75 /* GoogleService-Info.plist in Resources */,
 				1A9FF15122293FBD00689393 /* Assets.xcassets in Resources */,
 				1A9FF14F22293FBB00689393 /* Main.storyboard in Resources */,
 			);
